@@ -1,0 +1,33 @@
+{
+  "name": "healthspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyHealthSpace/Healthspace.git"
+  },
+  "author": "Vinayak Shrivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyHealthSpace/Healthspace/issues"
+  },
+  "homepage": "https://github.com/MyHealthSpace/Healthspace#readme",
+  "dependencies": {
+    "aws-sdk": "^2.256.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "multer-s3": "^2.7.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
