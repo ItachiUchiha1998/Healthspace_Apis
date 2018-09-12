@@ -4,8 +4,8 @@ const AWS = require('aws-sdk');
 const multerS3 = require('multer-s3')
 const router = express.Router();
 
-const aws_access_key_id = "AKIAJ7VGGRE4ZCCDQTJQ";
-const aws_secret_access_key = "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";
+const aws_access_key_id = "";
+const aws_secret_access_key = "";
 
 AWS.config.update({
     accessKeyId: aws_access_key_id,
